@@ -249,9 +249,17 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 
                 
                 
-                <a href="诗歌/" title="诗歌: 1">
+                <a href="诗歌/" title="诗歌: 0">
                     <span class="chip center-align waves-effect waves-light
                              chip-default " style="background-color: #F9EBEA;">诗歌
+                        <span class="tag-length">0</span>
+                    </span>
+                </a>
+                
+                
+                <a href="填问卷/" title="填问卷: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " style="background-color: #F5EEF8;">填问卷
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -298,7 +306,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"诗歌","max":2}],
+            indicator: [{"name":"诗歌","max":1},{"name":"填问卷","max":1}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -309,7 +317,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1],
+                    value : [0,1],
                     name : '文章分类数量'
                 }
             ]
@@ -328,7 +336,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             ©2019 Kowloonlee&nbsp;&nbsp;
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">263</span>
+                <span class="white-color">56</span>
             
 
             
